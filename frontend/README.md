@@ -30,9 +30,15 @@
 
  yarn babel src/index.js --out-file public/bundle.js
 
-#### Instalando o pacote para ser utilizado no webpack:
+#### Instalando os pacotes para ser utilizado no webpack:
 
  yarn add babel-loader
+
+ yarn add style-loader
+
+ yarn add css-loader
+
+ yarn add file-loader
 
 #### Instalando a funcionalidade do webpack de servidor:
 
@@ -42,6 +48,13 @@
 
  yarn webpack-dev-server --mode development
 
+### Instalando o axios, responsável por chamar a api no backend
+
+ yarn add axios
+
+### Instalando um plugin do babel, criar chamadas assincronas à api no backend para -D (desenvolvimento)
+
+ yarn add @babel/plugin-transform-runtime -D
 ---
 
 
@@ -53,7 +66,7 @@ Webpack: Para cada tipo de arquivo (.js, .css, .png), irá converter o código d
  
 (utilizado pelo webpack)
 
-Loaders: babel-loader, css-loader, image-loader, etc.
+Loaders: babel-loader, style-loader, css-loader, file-loader, image-loader, etc.
 
 
 JSX: HTML dentro do Javascript (Javascript XML)

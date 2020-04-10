@@ -9,6 +9,8 @@
 - [Express](https://expressjs.com/)
 - [Nodemon](https://nodemon.io/)
 - [Insomnia](https://insomnia.rest/)
+- [Uuidv4](https://www.npmjs.com/package/uuidv4)
+- [Cors](https://enable-cors.org/index.html)
 
 ---
 
@@ -40,3 +42,23 @@
       				"title": "altera titulo",
               "owner": "altera proprietário"
       		}
+
+---
+
+### Comandos utilizados na instalação:
+
+#### Instalando a biblioteca express
+
+yarn add express
+
+#### Instalando a biblioteca nodemon -D <desenvolvimento>
+
+yarn add nodemon -D
+
+#### Instalando a biblioteca uuidv4
+
+yarn add uuidv4
+
+#### Instalando a biblioteca cors
+
+yarn add cors
